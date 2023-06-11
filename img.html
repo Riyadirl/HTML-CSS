@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <!-- Adding an image from a local file:-->
+        <img src="path/to/image.jpg" alt="Description of the image">
+
+        <!--Adding an image from a URL-->
+        <img src="https://example.com/image.jpg" alt="Description of the image">
+        <!--Adding an SVG image:-->
+        <img src="image.svg" alt="Description of the image">
+
+        <!--Adding an image with multiple sources (srcset):-->
+        <img src="small.jpg" srcset="medium.jpg 800w, large.jpg 1200w"
+            sizes="(max-width: 600px) 400px, 800px"
+            alt="Description of the image">
+
+        <!-- Adding an image as a background:-->
+        <div style="background-image: url('image.jpg');"></div>
+
+
+
+        <!-- Adding a video from a local file:-->
+        <video controls>
+            <source src="path/to/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+
+        <!--Adding a video from a URL:-->
+        <video controls>
+            <source src="https://example.com/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!--Adding a video with multiple source files (for cross-browser compatibility):-->
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.webm" type="video/webm">
+            <source src="video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <!--Adding a video with subtitles or captions:-->
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            <track src="subtitles.vtt" kind="subtitles" srclang="en"
+                label="English">
+            Your browser does not support the video tag.
+        </video>
+
+    </body>
+
+</html>
