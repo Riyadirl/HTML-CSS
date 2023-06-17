@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>HTML Datalist Example</title>
     </head>
     <body>
+        <h1>HTML Datalist Example</h1>
 
-    </body>
-</html>
+        <!-- Option 1: Static options -->
+        <label for="static-options">Static Options:</label>
+        <input type="text" id="static-options" list="static-options-list">
+        <datalist id="static-options-list">
+            <option value="Option 1">
+                <option value="Option 2">
+                    <option value="Option 3">
+                    </datalist>
+
+                    <!-- Option 2: Dynamic options with JavaScript -->
+                    <label for="dynamic-options">Dynamic Options:</label>
+                    <input type="text" id="dynamic-options"
+                        list="dynamic-options-list">
+                    <datalist id="dynamic-options-list"></datalist>
+
+                    <script>
+    // JavaScript code to populate dynamic options
+    var dynamicOptionsList = document.getElementById('dynamic-options-list');
+    var options = ['Dynamic Option 1', 'Dynamic Option 2', 'Dynamic Option 3'];
+
+    options.forEach(function(option) {
+      var optionElement = document.createElement('option');
+      optionElement.value = option;
+      dynamicOptionsList.appendChild(optionElement);
+    });
+  </script>
+                    <!-- Option 3: Options from a server-side data source -->
+                    <label for="server-options">Server Options:</label>
+                    <input type="text" id="server-options"
+                        list="server-options-list">
+                    <datalist id="server-options-list">
+                        <!-- Options loaded from a server-side data source -->
+                        <!-- <option value="Server Option 1"> -->
+                        <!-- <option value="Server Option 2"> -->
+                        <!-- <option value="Server Option 3"> -->
+                    </datalist>
+
+                    <!-- Option 4: Options with labels -->
+                    <label for="labeled-options">Labeled Options:</label>
+                    <input type="text" id="labeled-options"
+                        list="labeled-options-list">
+                    <datalist id="labeled-options-list">
+                        <option value="Option 1" label="Label 1"></option>
+                        <option value="Option 2" label="Label 2"></option>
+                        <option value="Option 3" label="Label 3"></option>
+                    </datalist>
+
+                </body>
+            </html>
