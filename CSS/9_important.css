@@ -1,0 +1,12 @@
+.my-element {
+    /* Default styles */
+    background-color: #eee; /* Sets the background color to a light gray (#eee) */
+    color: #333; /* Sets the text color to a dark gray (#333) */
+    font-size: 16px; /* Sets the font size to 16 pixels */
+  
+    /* Important styles */
+    background-color: red !important; /* Overrides the background color with red, using !important to give it higher priority */
+    color: blue !important; /* Overrides the text color with blue, using !important to give it higher priority */
+    font-size: 20px !important; /* Overrides the font size with 20 pixels, using !important to give it higher priority */
+  }
+  

@@ -1,0 +1,50 @@
+.my-element-1 {
+    /* Block-level element */
+    display: block;
+  }
+  
+  .my-element-2 {
+    /* Inline-level element */
+    display: inline;
+  }
+  
+  .my-element-3 {
+    /* Inline-block element */
+    display: inline-block;
+  }
+  
+  .my-element-4 {
+    /* None - element is not displayed */
+    display: none;
+  }
+  
+  .my-element-5 {
+    /* Flex container */
+    display: flex;
+  }
+  
+  .my-element-6 {
+    /* Grid container */
+    display: grid;
+  }
+  
+  .my-element-7 {
+    /* Table */
+    display: table;
+  }
+  
+  .my-element-8 {
+    /* Table row */
+    display: table-row;
+  }
+  
+  .my-element-9 {
+    /* Table cell */
+    display: table-cell;
+  }
+  
+  .my-element-10 {
+    /* List-item element */
+    display: list-item;
+  }
+  

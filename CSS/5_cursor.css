@@ -1,0 +1,69 @@
+.my-element-1 {
+    /* Default cursor */
+    cursor: default;
+  }
+  
+  .my-element-2 {
+    /* Pointer cursor */
+    cursor: pointer;
+  }
+  
+  .my-element-3 {
+    /* Text cursor */
+    cursor: text;
+  }
+  
+  .my-element-4 {
+    /* Move cursor */
+    cursor: move;
+  }
+  
+  .my-element-5 {
+    /* Crosshair cursor */
+    cursor: crosshair;
+  }
+  
+  .my-element-6 {
+    /* Help cursor */
+    cursor: help;
+  }
+  
+  .my-element-7 {
+    /* Wait cursor */
+    cursor: wait;
+  }
+  
+  .my-element-8 {
+    /* Not-allowed cursor */
+    cursor: not-allowed;
+  }
+  
+  .my-element-9 {
+    /* E-resize cursor */
+    cursor: e-resize;
+  }
+  
+  .my-element-10 {
+    /* N-resize cursor */
+    cursor: n-resize;
+  }
+  /*
+  Default cursor (cursor: default): This property sets the default cursor for the element. It is usually an arrow. Example: Normal state of the cursor.
+
+Pointer cursor (cursor: pointer): This property sets the cursor to a pointer, indicating that the element is clickable or interactive. Example: <a> elements or buttons.
+
+Text cursor (cursor: text): This property sets the cursor to a text input cursor, indicating that the element is text inputable. Example: <input> elements or text areas.
+
+Move cursor (cursor: move): This property sets the cursor to a move cursor, indicating that the element can be dragged or moved. Example: Elements that can be dragged around.
+
+Crosshair cursor (cursor: crosshair): This property sets the cursor to a crosshair, indicating that the element can be used to select a region. Example: Drawing tools or image cropping.
+
+Help cursor (cursor: help): This property sets the cursor to a help cursor, indicating that the element provides help or information. Example: Tooltips or help icons.
+
+Wait cursor (cursor: wait): This property sets the cursor to a wait cursor, indicating that the element is busy or loading. Example: Loading spinners or progress indicators.
+
+Not-allowed cursor (cursor: not-allowed): This property sets the cursor to a "not-allowed" symbol, indicating that the element is disabled or not allowed to be interacted with. Example: Disabled buttons or inactive elements.
+
+E-resize cursor (cursor: e-resize): This property sets the cursor to a horizontal resize cursor, indicating that the element can be resized horizontally. Example: Resizable dividers or panels.
+
+N-resize cursor (cursor: n-resize): This property sets the cursor to a vertical resize cursor, indicating that the element can be resized vertically. Example: Resizable columns or rows.*/

@@ -1,0 +1,32 @@
+.my-element {
+    /* Font family */
+    font-family: Arial, sans-serif; /* Specifies the preferred font or font family for the element. In this example, it is set to Arial, followed by a generic sans-serif font. */
+  
+    /* Font size */
+    font-size: 16px; /* Sets the size of the font. In this example, it is set to 16 pixels. */
+  
+    /* Font weight */
+    font-weight: bold; /* Sets the thickness or boldness of the font. In this example, it is set to bold. */
+  
+    /* Font style */
+    font-style: italic; /* Sets the style of the font. In this example, it is set to italic. */
+  
+    /* Font variant */
+    font-variant: small-caps; /* Sets the variant of the font, such as small capitals. In this example, it is set to small-caps. */
+  
+    /* Line height */
+    line-height: 1.5; /* Sets the height of each line of text. In this example, it is set to 1.5 times the font size. */
+  
+    /* Text color */
+    color: #333; /* Sets the color of the text. In this example, it is set to a dark gray color (#333). */
+  
+    /* Text decoration */
+    text-decoration: underline; /* Adds decoration to the text, such as an underline. In this example, it is set to underline. */
+  
+    /* Text transform */
+    text-transform: uppercase; /* Transforms the capitalization of the text. In this example, it is set to uppercase. */
+  
+    /* Text alignment */
+    text-align: center; /* Sets the horizontal alignment of the text. In this example, it is set to center. */
+  }
+  

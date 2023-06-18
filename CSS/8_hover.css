@@ -1,0 +1,19 @@
+.my-button {
+    /* Default button styles */
+    background-color: #eee; /* Sets the background color of the button to a light gray (#eee) */
+    color: #333; /* Sets the text color of the button to a dark gray (#333) */
+    padding: 10px 20px; /* Sets the padding inside the button */
+    border: none; /* Removes the button border */
+    border-radius: 5px; /* Sets the border radius to create rounded corners */
+    font-size: 16px; /* Sets the font size of the button text */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  }
+  
+  .my-button:hover {
+    /* Button hover styles */
+    background-color: #f00; /* Changes the background color to red (#f00) when the button is hovered over */
+    color: #fff; /* Changes the text color to white (#fff) when the button is hovered over */
+    font-weight: bold; /* Sets the font weight to bold when the button is hovered over */
+    text-decoration: underline; /* Adds an underline to the text when the button is hovered over */
+  }
+  

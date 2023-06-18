@@ -1,0 +1,12 @@
+.my-element-1 {
+    /* Float element to the left */
+    float: left;
+    /* The element will float to the left side of its parent container */
+  }
+  
+  .my-element-2 {
+    /* Float element to the right */
+    float: right;
+    /* The element will float to the right side of its parent container */
+  }
+  
