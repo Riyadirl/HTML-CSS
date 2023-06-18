@@ -1,0 +1,35 @@
+.my-element {
+    /* None */
+    text-decoration: none;
+    /* Default value, no text decoration */
+
+    /* Underline */
+    text-decoration: underline;
+    /* Adds a line beneath the text */
+
+    /* Overline */
+    text-decoration: overline;
+    /* Adds a line above the text */
+
+    /* Line-through */
+    text-decoration: line-through;
+    /* Adds a line through the text */
+
+    /* Blink */
+    text-decoration: blink;
+    /* Animates the text by making it blink (not widely supported) */
+
+    /* Color */
+    text-decoration-color: red;
+    /* Sets the color of the text decoration */
+
+    /* Style */
+    text-decoration-style: dotted;
+    /* Sets the style of the text decoration (e.g., solid, dashed, dotted) */
+
+    /* Thickness */
+    text-decoration-line: underline;
+    /* Specifies the line type for the text decoration (e.g., underline, overline, line-through) */
+    text-decoration-thickness: 2px;
+    /* Sets the thickness of the line for the text decoration */
+}

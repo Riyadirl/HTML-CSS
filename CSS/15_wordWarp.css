@@ -1,0 +1,13 @@
+.my-element {
+    /* Normal */
+    word-wrap: normal;
+    /* Default behavior, allows long words to break at any character */
+
+    /* Break word */
+    word-wrap: break-word;
+    /* Breaks long words to prevent overflow, wraps at the nearest space or character */
+
+    /* All properties */
+    word-wrap: break-word;
+    /* Combines the properties of `overflow-wrap: break-word` and `word-break: break-all` */
+}

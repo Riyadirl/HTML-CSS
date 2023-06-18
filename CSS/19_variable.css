@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #007bff;
+    /* Define a CSS variable called --primary-color with the value #007bff */
+    --secondary-color: #6c757d;
+    /* Define a CSS variable called --secondary-color with the value #6c757d */
+}
+
+.my-element {
+    color: var(--primary-color);
+    /* Use the --primary-color variable to set the text color */
+    background-color: var(--secondary-color);
+    /* Use the --secondary-color variable to set the background color */
+    font-size: var(--font-size, 16px);
+    /* Use the --font-size variable and fallback to 16px if it's not defined */
+    margin: var(--spacing, 10px) auto;
+    /* Use the --spacing variable and fallback to 10px if it's not defined */
+}
+
+/* Modifying variable values */
+@media (min-width: 768px) {
+    :root {
+        --font-size: 20px;
+        /* Override the --font-size variable value for screens wider than 768px */
+    }
+}
+
+/* Using variables in keyframes */
+@keyframes slide-in {
+    0% {
+        transform: translateX(var(--start-position, -100px));
+        /* Use the --start-position variable to set the initial position */
+    }
+
+    100% {
+        transform: translateX(var(--end-position, 0));
+        /* Use the --end-position variable to set the final position */
+    }
+}

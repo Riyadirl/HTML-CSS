@@ -1,0 +1,25 @@
+.my-element {
+    /* Static */
+    position: static;
+    /* Default positioning, elements are positioned according to the normal flow of the document */
+
+    /* Relative */
+    position: relative;
+    /* Positioned relative to its normal position, allows for adjustments using top, right, bottom, left properties */
+
+    /* Absolute */
+    position: absolute;
+    /* Positioned relative to its nearest positioned ancestor or the containing block, removes element from normal flow */
+
+    /* Fixed */
+    position: fixed;
+    /* Positioned relative to the viewport, remains fixed even when the page is scrolled */
+
+    /* Sticky */
+    position: sticky;
+    /* Positioned based on the user's scroll position, acts like a combination of relative and fixed */
+
+    /* Z-index */
+    z-index: 1;
+    /* Sets the stacking order of elements, higher values appear in front of lower values */
+}

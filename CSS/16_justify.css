@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    /* Aligns items to the start of the flex container */
+
+    justify-content: flex-end;
+    /* Aligns items to the end of the flex container */
+
+    justify-content: center;
+    /* Centers the items along the main axis of the flex container */
+
+    justify-content: space-between;
+    /* Distributes items evenly with the first item aligned to the start and the last item aligned to the end */
+
+    justify-content: space-around;
+    /* Distributes items evenly with equal space around them */
+
+    justify-content: space-evenly;
+    /* Distributes items evenly with equal space around and between them */
+}

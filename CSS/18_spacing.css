@@ -1,0 +1,18 @@
+.my-element {
+    /* Word spacing */
+    word-spacing: normal;
+    /* Default value, normal spacing between words */
+
+    word-spacing: 5px;
+    /* Adds additional spacing between words, measured in pixels */
+
+    /* Letter spacing */
+    letter-spacing: normal;
+    /* Default value, normal spacing between letters */
+
+    letter-spacing: 2px;
+    /* Adds additional spacing between letters, measured in pixels */
+
+    letter-spacing: -1px;
+    /* Decreases the spacing between letters, bringing them closer together */
+}
