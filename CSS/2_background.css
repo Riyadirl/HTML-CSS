@@ -1,0 +1,35 @@
+.my-element {
+    /* Background color */
+    background-color: #F1F1F1;
+  
+    /* Background image */
+    background-image: url("example.jpg");
+    
+    /* Background repeat */
+    background-repeat: no-repeat;
+    
+    /* Background position */
+    background-position: center top;
+    
+    /* Background size */
+    background-size: cover;
+    
+    /* Background attachment */
+    background-attachment: fixed;
+    
+    /* Background blend mode */
+    background-blend-mode: multiply;
+    
+    /* Background origin */
+    background-origin: content-box;
+    
+    /* Background clip */
+    background-clip: padding-box;
+    
+    /* Background attachment */
+    background-attachment: fixed;
+    
+    /* Background gradient */
+    background: linear-gradient(to right, #FFD700, #FF8C00);
+  }
+  

@@ -1,0 +1,77 @@
+.my-element {
+    /* Border width */
+    border-width: 2px;
+    
+    /* Border style */
+    border-style: solid;
+    
+    /* Border color */
+    border-color: #000000;
+    
+    /* Border radius */
+    border-radius: 10px;
+    
+    /* Border shorthand */
+    border: 2px dashed #FF0000;
+  }
+
+
+
+  .my-element {
+    /* Solid border style */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* Dotted border style */
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* Dashed border style */
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* Double border style */
+    border-style: double;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* Groove border style */
+    border-style: groove;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* Ridge border style */
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* Inset border style */
+    border-style: inset;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* Outset border style */
+    border-style: outset;
+    border-width: 2px;
+    border-color: #000000;
+    
+    /* No border style */
+    border-style: none;
+  }
+  
+
+  /* radious */
+  .my-element {
+    /* Border radius for all corners */
+    border-radius: 10px;
+    
+    /* Border radius for individual corners */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+  }
+  
