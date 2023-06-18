@@ -1,0 +1,30 @@
+.my-element {
+    /* Visible
+    The overflow: visible; property value allows the content to overflow outside of its container without any clipping. Overflowing content will be visible. */
+    overflow: visible;
+    /* Content is not clipped, and overflowing content is visible */
+
+    /* Hidden 
+    The overflow: hidden; property value clips and hides any overflowing content. The content that extends beyond the boundaries of the container will be hidden.*/
+    overflow: hidden;
+    /* Content is clipped and any overflowing content is hidden */
+
+    /* Scroll
+    The overflow: scroll; property value clips the content and adds a scrollbar to the container, regardless of whether the content overflows or not. The scrollbar will always be visible. */
+    overflow: scroll;
+    /* Content is clipped, and a scrollbar is added to view overflowing content */
+
+    /* Auto
+    The overflow: auto; property value clips the content and adds a scrollbar to the container only if necessary. If the content fits within the container, no scrollbar will be visible. If the content overflows, a scrollbar will appear. */
+    overflow: auto;
+    /* Content is clipped, and a scrollbar is added only if necessary */
+
+    /* X-axis and Y-axis overflow
+    The overflow-x property is used to control the horizontal (x-axis) overflow behavior.
+The overflow-y property is used to control the vertical (y-axis) overflow behavior.
+In the example, overflow-x: hidden; hides any content that overflows horizontally, and overflow-y: scroll; adds a scrollbar to view any content that overflows vertically. */
+    overflow-x: hidden;
+    /* Clipping and hiding of content on the horizontal (x) axis */
+    overflow-y: scroll;
+    /* Clipping and scrollbar for overflowing content on the vertical (y) axis */
+}

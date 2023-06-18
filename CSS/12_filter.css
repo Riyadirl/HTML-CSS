@@ -1,0 +1,29 @@
+.my-element {
+    /* Blur */
+    filter: blur(5px); /* Applies a blur effect with a radius of 5 pixels */
+  
+    /* Brightness */
+    filter: brightness(80%); /* Adjusts the brightness to 80% */
+  
+    /* Contrast */
+    filter: contrast(120%); /* Increases the contrast by 120% */
+  
+    /* Grayscale */
+    filter: grayscale(100%); /* Converts the element to grayscale */
+  
+    /* Hue Rotate */
+    filter: hue-rotate(180deg); /* Rotates the hues by 180 degrees */
+  
+    /* Invert */
+    filter: invert(100%); /* Inverts the colors of the element */
+  
+    /* Opacity */
+    filter: opacity(50%); /* Sets the opacity of the element to 50% */
+  
+    /* Saturate */
+    filter: saturate(200%); /* Increases the saturation by 200% */
+  
+    /* Sepia */
+    filter: sepia(80%); /* Applies a sepia tone effect with 80% intensity */
+  }
+  

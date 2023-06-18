@@ -1,0 +1,22 @@
+/*CSS padding is a property used to control the spacing within an element. It defines the space between 
+the content of an element and its border. The padding property can be set to a single value, multiple values, or even negative values to achieve different spacing effects.
+
+The padding property can be applied to all four 
+sides of an element (top, right, bottom, and left),
+ or individual sides can be specified separately.*/
+
+
+ .my-element {
+    /* Padding with a single value */
+    padding: 10px; /* Sets equal padding of 10 pixels on all sides */
+  
+    /* Padding with two values */
+    padding: 5px 10px; /* Sets top/bottom padding of 5 pixels and left/right padding of 10 pixels */
+  
+    /* Padding with three values */
+    padding: 5px 10px 15px; /* Sets top padding of 5 pixels, left/right padding of 10 pixels, and bottom padding of 15 pixels */
+  
+    /* Padding with four values */
+    padding: 5px 10px 15px 20px; /* Sets top, right, bottom, and left padding individually */
+  }
+  

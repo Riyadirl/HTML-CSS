@@ -1,0 +1,17 @@
+.my-element {
+    /* Line height as a number */
+    line-height: 1.5; /* Sets the line height to 1.5 times the font size */
+  
+    /* Line height with unit */
+    line-height: 24px; /* Sets the line height to a specific pixel value */
+  
+    /* Line height with percentage */
+    line-height: 150%; /* Sets the line height to 150% of the font size */
+  
+    /* Line height with keyword */
+    line-height: normal; /* Resets the line height to the browser default */
+  
+    /* Line height with global value */
+    line-height: inherit; /* Inherits the line height from its parent element */
+  }
+  
